@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FE3A5BC1BEAED3900A718F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5BB1BEAED3900A718F3 /* main.m */; };
+		9FE3A5BF1BEAED3900A718F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5BE1BEAED3900A718F3 /* AppDelegate.m */; };
+		9FE3A5C51BEAED3900A718F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE3A5C31BEAED3900A718F3 /* Main.storyboard */; };
+		9FE3A5C71BEAED3900A718F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE3A5C61BEAED3900A718F3 /* Assets.xcassets */; };
+		9FE3A5CA1BEAED3900A718F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE3A5C81BEAED3900A718F3 /* LaunchScreen.storyboard */; };
+		9FE3A5D51BEAED3A00A718F3 /* MastermindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5D41BEAED3A00A718F3 /* MastermindTests.m */; };
+		9FE3A5E01BEAED3A00A718F3 /* MastermindUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5DF1BEAED3A00A718F3 /* MastermindUITests.m */; };
+		9FE3A5F11BEAED9500A718F3 /* SFUMastermindMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5F01BEAED9500A718F3 /* SFUMastermindMenuViewController.m */; };
+		9FE3A5F41BEAEDA800A718F3 /* SFUMastermindGameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5F31BEAEDA800A718F3 /* SFUMastermindGameTableViewController.m */; };
+		9FE3A5FA1BEAEE0600A718F3 /* SFUColourPaletteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5F91BEAEE0600A718F3 /* SFUColourPaletteCell.m */; };
+		9FE3A5FD1BEAEE1900A718F3 /* SFUMastermindGuessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5FC1BEAEE1900A718F3 /* SFUMastermindGuessCell.m */; };
+		9FE3A6001BEAEE3E00A718F3 /* SFUMastermindSecretCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A5FF1BEAEE3E00A718F3 /* SFUMastermindSecretCodeCell.m */; };
+		9FE3A60D1BEAEF5600A718F3 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A6031BEAEF5600A718F3 /* SCLAlertView.m */; };
+		9FE3A60E1BEAEF5600A718F3 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A6051BEAEF5600A718F3 /* SCLAlertViewResponder.m */; };
+		9FE3A60F1BEAEF5600A718F3 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A6071BEAEF5600A718F3 /* SCLAlertViewStyleKit.m */; };
+		9FE3A6101BEAEF5600A718F3 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A6091BEAEF5600A718F3 /* SCLButton.m */; };
+		9FE3A6111BEAEF5600A718F3 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3A60C1BEAEF5600A718F3 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FE3A5D11BEAED3A00A718F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE3A5AF1BEAED3900A718F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE3A5B61BEAED3900A718F3;
+			remoteInfo = Mastermind;
+		};
+		9FE3A5DC1BEAED3A00A718F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE3A5AF1BEAED3900A718F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE3A5B61BEAED3900A718F3;
+			remoteInfo = Mastermind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FE3A5B71BEAED3900A718F3 /* Mastermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE3A5BB1BEAED3900A718F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FE3A5BD1BEAED3900A718F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FE3A5BE1BEAED3900A718F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FE3A5C41BEAED3900A718F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FE3A5C61BEAED3900A718F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FE3A5C91BEAED3900A718F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FE3A5CB1BEAED3900A718F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE3A5D01BEAED3A00A718F3 /* MastermindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastermindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE3A5D41BEAED3A00A718F3 /* MastermindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MastermindTests.m; sourceTree = "<group>"; };
+		9FE3A5D61BEAED3A00A718F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE3A5DB1BEAED3A00A718F3 /* MastermindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastermindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE3A5DF1BEAED3A00A718F3 /* MastermindUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MastermindUITests.m; sourceTree = "<group>"; };
+		9FE3A5E11BEAED3A00A718F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE3A5EF1BEAED9500A718F3 /* SFUMastermindMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUMastermindMenuViewController.h; sourceTree = "<group>"; };
+		9FE3A5F01BEAED9500A718F3 /* SFUMastermindMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUMastermindMenuViewController.m; sourceTree = "<group>"; };
+		9FE3A5F21BEAEDA800A718F3 /* SFUMastermindGameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUMastermindGameTableViewController.h; sourceTree = "<group>"; };
+		9FE3A5F31BEAEDA800A718F3 /* SFUMastermindGameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUMastermindGameTableViewController.m; sourceTree = "<group>"; };
+		9FE3A5F81BEAEE0600A718F3 /* SFUColourPaletteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUColourPaletteCell.h; sourceTree = "<group>"; };
+		9FE3A5F91BEAEE0600A718F3 /* SFUColourPaletteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUColourPaletteCell.m; sourceTree = "<group>"; };
+		9FE3A5FB1BEAEE1900A718F3 /* SFUMastermindGuessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUMastermindGuessCell.h; sourceTree = "<group>"; };
+		9FE3A5FC1BEAEE1900A718F3 /* SFUMastermindGuessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUMastermindGuessCell.m; sourceTree = "<group>"; };
+		9FE3A5FE1BEAEE3E00A718F3 /* SFUMastermindSecretCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUMastermindSecretCodeCell.h; sourceTree = "<group>"; };
+		9FE3A5FF1BEAEE3E00A718F3 /* SFUMastermindSecretCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUMastermindSecretCodeCell.m; sourceTree = "<group>"; };
+		9FE3A6021BEAEF5600A718F3 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		9FE3A6031BEAEF5600A718F3 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		9FE3A6041BEAEF5600A718F3 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		9FE3A6051BEAEF5600A718F3 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		9FE3A6061BEAEF5600A718F3 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		9FE3A6071BEAEF5600A718F3 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		9FE3A6081BEAEF5600A718F3 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		9FE3A6091BEAEF5600A718F3 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		9FE3A60A1BEAEF5600A718F3 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		9FE3A60B1BEAEF5600A718F3 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		9FE3A60C1BEAEF5600A718F3 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9FE3A6121BEAF14D00A718F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9FE3A6131BEAF18000A718F3 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE3A5B41BEAED3900A718F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3A5CD1BEAED3A00A718F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3A5D81BEAED3A00A718F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FE3A5AE1BEAED3900A718F3 = {
+			isa = PBXGroup;
+			children = (
+				9FE3A6131BEAF18000A718F3 /* Common.h */,
+				9FE3A6121BEAF14D00A718F3 /* PrefixHeader.pch */,
+				9FE3A5B91BEAED3900A718F3 /* Mastermind */,
+				9FE3A5D31BEAED3A00A718F3 /* MastermindTests */,
+				9FE3A5DE1BEAED3A00A718F3 /* MastermindUITests */,
+				9FE3A5B81BEAED3900A718F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FE3A5B81BEAED3900A718F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5B71BEAED3900A718F3 /* Mastermind.app */,
+				9FE3A5D01BEAED3A00A718F3 /* MastermindTests.xctest */,
+				9FE3A5DB1BEAED3A00A718F3 /* MastermindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FE3A5B91BEAED3900A718F3 /* Mastermind */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A6011BEAEF3B00A718F3 /* Third Party */,
+				9FE3A5EE1BEAED7600A718F3 /* Menu */,
+				9FE3A5ED1BEAED6100A718F3 /* BoardGame */,
+				9FE3A5BD1BEAED3900A718F3 /* AppDelegate.h */,
+				9FE3A5BE1BEAED3900A718F3 /* AppDelegate.m */,
+				9FE3A5C31BEAED3900A718F3 /* Main.storyboard */,
+				9FE3A5C61BEAED3900A718F3 /* Assets.xcassets */,
+				9FE3A5C81BEAED3900A718F3 /* LaunchScreen.storyboard */,
+				9FE3A5CB1BEAED3900A718F3 /* Info.plist */,
+				9FE3A5BA1BEAED3900A718F3 /* Supporting Files */,
+			);
+			path = Mastermind;
+			sourceTree = "<group>";
+		};
+		9FE3A5BA1BEAED3900A718F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5BB1BEAED3900A718F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FE3A5D31BEAED3A00A718F3 /* MastermindTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5D41BEAED3A00A718F3 /* MastermindTests.m */,
+				9FE3A5D61BEAED3A00A718F3 /* Info.plist */,
+			);
+			path = MastermindTests;
+			sourceTree = "<group>";
+		};
+		9FE3A5DE1BEAED3A00A718F3 /* MastermindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5DF1BEAED3A00A718F3 /* MastermindUITests.m */,
+				9FE3A5E11BEAED3A00A718F3 /* Info.plist */,
+			);
+			path = MastermindUITests;
+			sourceTree = "<group>";
+		};
+		9FE3A5ED1BEAED6100A718F3 /* BoardGame */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5F21BEAEDA800A718F3 /* SFUMastermindGameTableViewController.h */,
+				9FE3A5F31BEAEDA800A718F3 /* SFUMastermindGameTableViewController.m */,
+				9FE3A5F51BEAEDB100A718F3 /* SecretCode Cell */,
+				9FE3A5F61BEAEDBB00A718F3 /* Guess Cell */,
+				9FE3A5F71BEAEDC900A718F3 /* ColourPalette Cell */,
+			);
+			name = BoardGame;
+			sourceTree = "<group>";
+		};
+		9FE3A5EE1BEAED7600A718F3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5EF1BEAED9500A718F3 /* SFUMastermindMenuViewController.h */,
+				9FE3A5F01BEAED9500A718F3 /* SFUMastermindMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		9FE3A5F51BEAEDB100A718F3 /* SecretCode Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5FE1BEAEE3E00A718F3 /* SFUMastermindSecretCodeCell.h */,
+				9FE3A5FF1BEAEE3E00A718F3 /* SFUMastermindSecretCodeCell.m */,
+			);
+			name = "SecretCode Cell";
+			sourceTree = "<group>";
+		};
+		9FE3A5F61BEAEDBB00A718F3 /* Guess Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5FB1BEAEE1900A718F3 /* SFUMastermindGuessCell.h */,
+				9FE3A5FC1BEAEE1900A718F3 /* SFUMastermindGuessCell.m */,
+			);
+			name = "Guess Cell";
+			sourceTree = "<group>";
+		};
+		9FE3A5F71BEAEDC900A718F3 /* ColourPalette Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A5F81BEAEE0600A718F3 /* SFUColourPaletteCell.h */,
+				9FE3A5F91BEAEE0600A718F3 /* SFUColourPaletteCell.m */,
+			);
+			name = "ColourPalette Cell";
+			sourceTree = "<group>";
+		};
+		9FE3A6011BEAEF3B00A718F3 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3A6021BEAEF5600A718F3 /* SCLAlertView.h */,
+				9FE3A6031BEAEF5600A718F3 /* SCLAlertView.m */,
+				9FE3A6041BEAEF5600A718F3 /* SCLAlertViewResponder.h */,
+				9FE3A6051BEAEF5600A718F3 /* SCLAlertViewResponder.m */,
+				9FE3A6061BEAEF5600A718F3 /* SCLAlertViewStyleKit.h */,
+				9FE3A6071BEAEF5600A718F3 /* SCLAlertViewStyleKit.m */,
+				9FE3A6081BEAEF5600A718F3 /* SCLButton.h */,
+				9FE3A6091BEAEF5600A718F3 /* SCLButton.m */,
+				9FE3A60A1BEAEF5600A718F3 /* SCLMacros.h */,
+				9FE3A60B1BEAEF5600A718F3 /* UIImage+ImageEffects.h */,
+				9FE3A60C1BEAEF5600A718F3 /* UIImage+ImageEffects.m */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FE3A5B61BEAED3900A718F3 /* Mastermind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE3A5E41BEAED3A00A718F3 /* Build configuration list for PBXNativeTarget "Mastermind" */;
+			buildPhases = (
+				9FE3A5B31BEAED3900A718F3 /* Sources */,
+				9FE3A5B41BEAED3900A718F3 /* Frameworks */,
+				9FE3A5B51BEAED3900A718F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mastermind;
+			productName = Mastermind;
+			productReference = 9FE3A5B71BEAED3900A718F3 /* Mastermind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FE3A5CF1BEAED3A00A718F3 /* MastermindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE3A5E71BEAED3A00A718F3 /* Build configuration list for PBXNativeTarget "MastermindTests" */;
+			buildPhases = (
+				9FE3A5CC1BEAED3A00A718F3 /* Sources */,
+				9FE3A5CD1BEAED3A00A718F3 /* Frameworks */,
+				9FE3A5CE1BEAED3A00A718F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE3A5D21BEAED3A00A718F3 /* PBXTargetDependency */,
+			);
+			name = MastermindTests;
+			productName = MastermindTests;
+			productReference = 9FE3A5D01BEAED3A00A718F3 /* MastermindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FE3A5DA1BEAED3A00A718F3 /* MastermindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE3A5EA1BEAED3A00A718F3 /* Build configuration list for PBXNativeTarget "MastermindUITests" */;
+			buildPhases = (
+				9FE3A5D71BEAED3A00A718F3 /* Sources */,
+				9FE3A5D81BEAED3A00A718F3 /* Frameworks */,
+				9FE3A5D91BEAED3A00A718F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE3A5DD1BEAED3A00A718F3 /* PBXTargetDependency */,
+			);
+			name = MastermindUITests;
+			productName = MastermindUITests;
+			productReference = 9FE3A5DB1BEAED3A00A718F3 /* MastermindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FE3A5AF1BEAED3900A718F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tonydinh;
+				TargetAttributes = {
+					9FE3A5B61BEAED3900A718F3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9FE3A5CF1BEAED3A00A718F3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9FE3A5B61BEAED3900A718F3;
+					};
+					9FE3A5DA1BEAED3A00A718F3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9FE3A5B61BEAED3900A718F3;
+					};
+				};
+			};
+			buildConfigurationList = 9FE3A5B21BEAED3900A718F3 /* Build configuration list for PBXProject "Mastermind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FE3A5AE1BEAED3900A718F3;
+			productRefGroup = 9FE3A5B81BEAED3900A718F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FE3A5B61BEAED3900A718F3 /* Mastermind */,
+				9FE3A5CF1BEAED3A00A718F3 /* MastermindTests */,
+				9FE3A5DA1BEAED3A00A718F3 /* MastermindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FE3A5B51BEAED3900A718F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE3A5CA1BEAED3900A718F3 /* LaunchScreen.storyboard in Resources */,
+				9FE3A5C71BEAED3900A718F3 /* Assets.xcassets in Resources */,
+				9FE3A5C51BEAED3900A718F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3A5CE1BEAED3A00A718F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3A5D91BEAED3A00A718F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FE3A5B31BEAED3900A718F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE3A5FA1BEAEE0600A718F3 /* SFUColourPaletteCell.m in Sources */,
+				9FE3A6111BEAEF5600A718F3 /* UIImage+ImageEffects.m in Sources */,
+				9FE3A5F41BEAEDA800A718F3 /* SFUMastermindGameTableViewController.m in Sources */,
+				9FE3A6001BEAEE3E00A718F3 /* SFUMastermindSecretCodeCell.m in Sources */,
+				9FE3A6101BEAEF5600A718F3 /* SCLButton.m in Sources */,
+				9FE3A60F1BEAEF5600A718F3 /* SCLAlertViewStyleKit.m in Sources */,
+				9FE3A5BF1BEAED3900A718F3 /* AppDelegate.m in Sources */,
+				9FE3A60D1BEAEF5600A718F3 /* SCLAlertView.m in Sources */,
+				9FE3A5FD1BEAEE1900A718F3 /* SFUMastermindGuessCell.m in Sources */,
+				9FE3A60E1BEAEF5600A718F3 /* SCLAlertViewResponder.m in Sources */,
+				9FE3A5F11BEAED9500A718F3 /* SFUMastermindMenuViewController.m in Sources */,
+				9FE3A5BC1BEAED3900A718F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3A5CC1BEAED3A00A718F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE3A5D51BEAED3A00A718F3 /* MastermindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3A5D71BEAED3A00A718F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE3A5E01BEAED3A00A718F3 /* MastermindUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FE3A5D21BEAED3A00A718F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE3A5B61BEAED3900A718F3 /* Mastermind */;
+			targetProxy = 9FE3A5D11BEAED3A00A718F3 /* PBXContainerItemProxy */;
+		};
+		9FE3A5DD1BEAED3A00A718F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE3A5B61BEAED3900A718F3 /* Mastermind */;
+			targetProxy = 9FE3A5DC1BEAED3A00A718F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FE3A5C31BEAED3900A718F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FE3A5C41BEAED3900A718F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FE3A5C81BEAED3900A718F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FE3A5C91BEAED3900A718F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FE3A5E21BEAED3A00A718F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FE3A5E31BEAED3A00A718F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FE3A5E51BEAED3A00A718F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = Mastermind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.Mastermind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FE3A5E61BEAED3A00A718F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = Mastermind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.Mastermind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FE3A5E81BEAED3A00A718F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MastermindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MastermindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mastermind.app/Mastermind";
+			};
+			name = Debug;
+		};
+		9FE3A5E91BEAED3A00A718F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MastermindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MastermindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mastermind.app/Mastermind";
+			};
+			name = Release;
+		};
+		9FE3A5EB1BEAED3A00A718F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MastermindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MastermindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mastermind;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9FE3A5EC1BEAED3A00A718F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MastermindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MastermindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mastermind;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FE3A5B21BEAED3900A718F3 /* Build configuration list for PBXProject "Mastermind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE3A5E21BEAED3A00A718F3 /* Debug */,
+				9FE3A5E31BEAED3A00A718F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE3A5E41BEAED3A00A718F3 /* Build configuration list for PBXNativeTarget "Mastermind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE3A5E51BEAED3A00A718F3 /* Debug */,
+				9FE3A5E61BEAED3A00A718F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FE3A5E71BEAED3A00A718F3 /* Build configuration list for PBXNativeTarget "MastermindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE3A5E81BEAED3A00A718F3 /* Debug */,
+				9FE3A5E91BEAED3A00A718F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FE3A5EA1BEAED3A00A718F3 /* Build configuration list for PBXNativeTarget "MastermindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE3A5EB1BEAED3A00A718F3 /* Debug */,
+				9FE3A5EC1BEAED3A00A718F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FE3A5AF1BEAED3900A718F3 /* Project object */;
+}
