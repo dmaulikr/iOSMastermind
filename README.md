@@ -7,7 +7,9 @@
 Mastermind is a code-breaking game. In this implementation, the player's objective is to correctly guess the hidden 5-length code within 8 tries.
 
 #### How to Play
-
+**1.** A 5-length code is randomly generated from 8 colours - the secret code may contain duplicates.
+    
+    ![Screenshot](/Screenshots/ss1.png)
 
 **2.** Make a guess by selecting colours from the colour palette at the bottom of the screen. Then tap `OK`.
 
@@ -28,4 +30,4 @@ Mastermind is a code-breaking game. In this implementation, the player's objecti
 > and it is in the correct spot.
 
 **4.** Use the information gained from the previous guesses to make your next guess.
-![Screenshot](/Screenshots/ss1.png)
+
