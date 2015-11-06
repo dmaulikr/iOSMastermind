@@ -9,8 +9,7 @@ Mastermind is a code-breaking game. In this implementation, the player's objecti
 #### How to Play
 **1.** A 5-length code is randomly generated from 8 colours - the secret code may contain duplicates.
     
-    
-    ![Screenshot](/Screenshots/ss1.png)
+    ![Screenshot](/Screenshots/ss3.png)
 
 **2.** Make a guess by selecting colours from the colour palette at the bottom of the screen. Then tap `OK`.
 
@@ -20,14 +19,14 @@ Mastermind is a code-breaking game. In this implementation, the player's objecti
      
     ![Screenshot](/Screenshots/ss3.png)
 
-> a red peg indicates that from the guess, one of the colours pair with one from the secret code 
+> A red peg indicates that from the guess, one of the colours pair with one from the secret code 
 > but it is in the incorrect spot.
 
   * **Black Peg: Correct Colour - Correct Spot**
 
       ![Screenshot](/Screenshots/ss4.png)
 
-> a black peg indicates that from the guess, one of the colours pair with one from the secret code 
+> A black peg indicates that from the guess, one of the colours pair with one from the secret code 
 > and it is in the correct spot.
 
 **4.** Use the information gained from the previous guesses to make your next guess.
