@@ -524,6 +524,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = Mastermind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.Mastermind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,6 +538,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = Mastermind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.Mastermind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
